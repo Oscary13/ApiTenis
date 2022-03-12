@@ -12,7 +12,7 @@ class TeniController extends Controller
         $datisTeni = Teni::all();
         return response()->json($datisTeni);
     }
-    
+
     public function guardarTeni(Request $request)
     {
 
